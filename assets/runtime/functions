@@ -314,6 +314,8 @@ nextcloud_upgrade() {
 nextcloud_configure_domain() {
   echo "Configuring Nextcloud::trusted_domain..."
   occ_cli config:system:set trusted_domains 0 --value ${NEXTCLOUD_FQDN}
+  echo "Configuring Nextcloud::overwriteprotocol..."
+  occ_cli config:system:set overwriteprotocol --value https
 }
 
 nextcloud_configure_max_upload_size() {
