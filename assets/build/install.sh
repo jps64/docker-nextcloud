@@ -70,6 +70,8 @@ php_config_set "/etc/php/${PHP_VERSION}/fpm/php.ini" "opcache.memory_consumption
 php_config_set "/etc/php/${PHP_VERSION}/fpm/php.ini" "opcache.save_comments" "1"
 php_config_set "/etc/php/${PHP_VERSION}/fpm/php.ini" "opcache.revalidate_freq" "1"
 
+php_config_set "/etc/php/${PHP_VERSION}/fpm/php.ini" "memory_limit" "256M"
+
 download_and_extract "https://download.nextcloud.com/server/releases/nextcloud-${NEXTCLOUD_VERSION}.tar.bz2" "${NEXTCLOUD_INSTALL_DIR}"
 
 find ${NEXTCLOUD_INSTALL_DIR}/ -type f -print0 | xargs -0 chmod 0640
