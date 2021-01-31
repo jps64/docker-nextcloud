@@ -1,4 +1,4 @@
-# jps64/nextcloud:18.0.14
+# jps64/nextcloud:19.0.8
 
 - [Introduction](#introduction)
   - [Contributing](#contributing)
@@ -16,7 +16,7 @@
 # Introduction
 
 `Dockerfile` to create a [Docker](https://www.docker.com/) container image for [Nextcloud](https://nextcloud.com/).
-Build on thhe great work by sameersbn.18.0.14
+Build on thhe great work by sameersbn.
 
 Nextcloud is a self-hosted open source application for file hosting and sharing.
 
@@ -49,7 +49,7 @@ Automated builds of the image are available on [Dockerhub](https://hub.docker.co
 > **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/nextcloud)
 
 ```bash
-docker pull sameersbn/nextcloud:18.0.14
+docker pull jps64/nextcloud:19.0.8
 ```
 
 Alternatively you can build the image yourself.

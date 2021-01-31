@@ -1,5 +1,8 @@
 # ChangeLog
 
+**19.0.8**
+- nextcloud: upgrade to  19.0.8
+
 **18.0.14**
 - nextcloud: upgrade to  18.0.14
 
