@@ -1,4 +1,4 @@
-# jps64/nextcloud:19.0.8
+# jps64/nextcloud:20.0.6
 
 - [Introduction](#introduction)
   - [Contributing](#contributing)
@@ -49,7 +49,7 @@ Automated builds of the image are available on [Dockerhub](https://hub.docker.co
 > **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/nextcloud)
 
 ```bash
-docker pull jps64/nextcloud:19.0.8
+docker pull jps64/nextcloud:20.0.6
 ```
 
 Alternatively you can build the image yourself.
