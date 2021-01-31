@@ -51,7 +51,7 @@ DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
   php${PHP_VERSION}-fpm php${PHP_VERSION}-cli php${PHP_VERSION}-gd \
   php${PHP_VERSION}-pgsql php${PHP_VERSION}-mysql php${PHP_VERSION}-curl \
   php${PHP_VERSION}-zip php${PHP_VERSION}-xml php${PHP_VERSION}-mbstring \
-  php${PHP_VERSION}-intl php${PHP_VERSION}-ldap \
+  php${PHP_VERSION}-intl php${PHP_VERSION}-ldap php${PHP_VERSION}-bcmath \
   php${PHP_VERSION}-gmp php${PHP_VERSION}-apcu php${PHP_VERSION}-imagick
 
 # configure php.ini
