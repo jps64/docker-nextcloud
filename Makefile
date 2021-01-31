@@ -1,7 +1,7 @@
 all: build
 
 build:
-	@docker build --tag=sameersbn/nextcloud .
+	@docker build --tag=jps64/nextcloud .
 
 release: build
-	@docker build --tag=sameersbn/nextcloud:$(shell cat VERSION) .
+	@docker build --tag=jps64/nextcloud:$(shell cat VERSION) .

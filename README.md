@@ -1,6 +1,6 @@
 [![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/nextcloud/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/nextcloud)
 
-# sameersbn/nextcloud:17.0.0
+# sameersbn/nextcloud:20.0.6
 
 - [Introduction](#introduction)
   - [Contributing](#contributing)
