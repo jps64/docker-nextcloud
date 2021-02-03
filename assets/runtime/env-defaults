@@ -15,6 +15,8 @@ NEXTCLOUD_URL=${NEXTCLOUD_URL:-}
 NEXTCLOUD_URL=${NEXTCLOUD_URL:-$PHP_FPM_ENV_NEXTCLOUD_URL}
 NEXTCLOUD_URL=${NEXTCLOUD_URL:-http://localhost}
 
+NEXTCLOUD_CUSTOM_APPS=${NEXTCLOUD_CUSTOM_APPS:-}
+
 # credits: http://stackoverflow.com/a/2506635/4799938
 NEXTCLOUD_FQDN=$(sed -e "s/\([^/]*\)\:\/\/\([^@]*@\)\?\([^:/]*\).*/\3/" <<< ${NEXTCLOUD_URL})
 if [[ $(sed -e "s/\([^/]*\)\:\/\/\([^@]*@\)\?\([^:/]*\).*/\1/" <<< ${NEXTCLOUD_URL}) == https ]]; then

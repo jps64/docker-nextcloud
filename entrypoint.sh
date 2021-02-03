@@ -12,6 +12,7 @@ case ${1} in
     case ${1} in
       app:nextcloud)
         configure_nextcloud
+        install_custom_apps
         echo "Starting Nextcloud php5-fpm..."
         exec $(which php-fpm${PHP_VERSION}) -F
         ;;

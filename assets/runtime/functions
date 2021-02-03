@@ -604,3 +604,14 @@ backup_restore() {
   backup_restore_directory ${NEXTCLOUD_CONFIG_DIR} .tar.gz
   backup_restore_directory ${NEXTCLOUD_OCDATA_DIR} .tar
 }
+
+install_custom_apps(){
+  echo "Adding apps to nextcloud..."
+  if [[ -n "${NEXTCLOUD_CUSTOM_APPS}" ]]; then
+    for $app in ${NEXTCLOUD_CUSTOM_APPS}; do
+      echo "Installing app: $app ..."
+      occ_cli app:install $app
+      occ_cli app:enable $app
+    done
+  fi
+}
