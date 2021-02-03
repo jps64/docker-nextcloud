@@ -608,8 +608,8 @@ backup_restore() {
 install_custom_apps(){
   echo "Adding apps to nextcloud..."
   if [[ -n "${NEXTCLOUD_CUSTOM_APPS}" ]]; then
-    for $app in ${NEXTCLOUD_CUSTOM_APPS}; do
-      echo "Installing app: $app ..."
+    for app in ${NEXTCLOUD_CUSTOM_APPS}; do
+      echo "Installing app: ${app} ..."
       occ_cli app:install ${app}
       occ_cli app:enable ${app}
     done
