@@ -1,5 +1,9 @@
 # ChangeLog
 
+**22.0.0**
+- nextcloud: upgrade to  22.0.0
+- php: upgrade to 7.4
+
 **20.0.6**
 - nextcloud: upgrade to  20.0.6
 

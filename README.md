@@ -1,4 +1,4 @@
-# jps64/nextcloud:20.0.6
+# jps64/nextcloud:22.0.0
 
 - [Introduction](#introduction)
   - [Contributing](#contributing)

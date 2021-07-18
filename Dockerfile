@@ -2,8 +2,8 @@ FROM ubuntu:bionic-20210118
 
 LABEL maintainer="sameer@damagehead.com"
 
-ENV PHP_VERSION=7.2 \
-    NEXTCLOUD_VERSION=20.0.6 \
+ENV PHP_VERSION=7.4 \
+    NEXTCLOUD_VERSION=22.0.0 \
     NEXTCLOUD_USER=www-data \
     NEXTCLOUD_INSTALL_DIR=/var/www/nextcloud \
     NEXTCLOUD_DATA_DIR=/var/lib/nextcloud \

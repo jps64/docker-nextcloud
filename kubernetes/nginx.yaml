@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: jps64/nextcloud:20.0.6
+      image: jps64/nextcloud:22.0.0
       args: ["app:nginx"]
       env:
         - name: NEXTCLOUD_URL

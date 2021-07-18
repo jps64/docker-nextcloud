@@ -13,7 +13,7 @@ services:
 
   nextcloud:
     restart: always
-    image: jps64/nextcloud:20.0.6
+    image: jps64/nextcloud:22.0.0
     command: app:nextcloud
     environment:
     - DEBUG=false
@@ -43,7 +43,7 @@ services:
 
   nginx:
     restart: always
-    image: jps64/nextcloud:20.0.6
+    image: jps64/nextcloud:22.0.0
     command: app:nginx
     environment:
     - NEXTCLOUD_PHP_FPM_HOST=nextcloud
